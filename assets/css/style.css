@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #161A1D;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text h1 {
+    font-size: 24px;
+}
+
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.social-media-section a {
+    margin: 0 10px;
+    color: #161A1D;
+    text-decoration: none;
+}
+
+.footer-text p {
+    margin: 10px 0;
+}
+
+.home-hero {
+    background-image: url('../images/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+
+h1, h2 {
+    text-align: center;
+}
+
+.home {
+    text-align: center;
+    padding: 50px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #E5383B;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #BA181B;
+}
+
+.register-form, .login-form, .account-page, .change-password-form, .forget-password-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+
